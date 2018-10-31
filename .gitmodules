@@ -1,0 +1,3 @@
+[submodule "Mithril"]
+	path = Mithril
+	url = git@github.com:twixthehero/mithril.git
