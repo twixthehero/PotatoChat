@@ -14,6 +14,11 @@ namespace LibPotato
             IsReliable = reliable;
         }
 
+        public Packet(Mithril.Buffer buffer)
+        {
+            Read(buffer);
+        }
+
         public void Write(Mithril.Buffer buffer)
         {
             WriteHeader(buffer);
